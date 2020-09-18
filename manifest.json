@@ -1,6 +1,6 @@
 {
-  "title": "CodeLab title",
-  "repository": "https://github.com/AdobeDocs/adobeio-codelabs-template",
+  "title": "Build custom Asset Compute worker",
+  "repository": "https://github.com/Cognifide/adobeio-asset-compute-labs",
   "navigation": [{
     "title": "Introduction",
     "url": "/README"
@@ -8,13 +8,28 @@
     "title": "Requirements",
     "url": "/lessons/requirements"
   }, {
-    "title": "Lesson 1: Bootstrap your app",
+    "title": "How AEM as Cloud assets works",
+    "url": "/lessons/aem-cloud-assets"
+  }, {
+    "title": "Architecture of our worker",
+    "url": "/lessons/our-worker"
+  }, {
+    "title": "Configure services",
     "url": "/lessons/lesson1"
   }, {
-    "title": "Lesson 2: Write your app",
+    "title": "Local environment setup",
     "url": "/lessons/lesson2"
   }, {
-    "title": "Well done",
+    "title": "Implement the worker",
+    "url": "/lessons/lesson3"
+  }, {
+    "title": "Test the worker",
+    "url": "/lessons/lesson4"
+  }, {
+    "title": "Setup AEM to use the worker",
+    "url": "/lessons/lesson5"
+  }, {
+    "title": "Well Done",
     "url": "/lessons/welldone"
   }]
 }

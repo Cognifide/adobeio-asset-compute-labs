@@ -1,29 +1,19 @@
-# Adobe I/O CodeLabs template
+# Build custom Asset Compute worker
 
-## Getting started 
+![front-banner](lessons/assets/hero-banner.jpg)
+<a href="https://www.freepik.com/vectors/banner">Hero banner created by starline - www.freepik.com</a>
 
-Click on the "Use this template" button to copy the template to your namespace. 
+> *This CodeLab is based on the [**How to generate intelligent renditions with AEM as a Cloud**][original-post] blog post.*
 
-The codelab entry point is the [README](README.md). You can put your codelab content including assets under the [lessons](/lessons) directory. The codelab [manifest.json](manifest.json) holds the navigation information and more. Link your lessons in that file in order to render the navigation.
+Image resizing or format conversion is a relatively easy task when doing renditions in **Adobe Experience Manager**. 
+Your project might require more robust approaches supported by intelligent image services. You might need to change 
+images to greyscale, or intelligently crop the image around faces. 
 
-## Preview codelab locally
+This codelab will guide you through the creating a [custom worker for Asset Compute][asset-compute-extensions] using [Project Firefly][firefly-home], and how to use it in [Adobe Experience Manager as a Cloud service][aem-cloud].
 
-The template codelab is based on the Project Helix https://www.project-helix.io/. Follow instructions as explained.
-
-`npm i -g @adobe/helix-cli && hlx up` is enough to get you started. Make sure to have at least `npm@6.14.x` installed and an initial commit. 
-
-## Share codelab URL
-
-You can visit https://[REPO_NAME]-[REPO_OWNER].project-helix.page to see it running.
-
-Demo: https://adobeio-codelabs-template-adobedocs.project-helix.page/ 
-
-Make sure to push your changes before sharing the URL.
-
-## Contribute to Adobe I/O CodeLabs
-
-Once your codelab is ready, submit a PR to add it to the index at https://github.com/AdobeDocs/adobeio-codelabs/blob/gh-pages/actions/index.json  
-
-
-
+Next: [Requirements](lessons/requirements.md)
   
+[original-post]: https://tech.cognifide.com/blog/2020/how-to-generate-intelligent-renditions-aem-cloud/
+[firefly-home]: https://github.com/AdobeDocs/project-firefly
+[asset-compute-extensions]: https://docs.adobe.com/content/help/en/asset-compute/using/extend/understand-extensibility.html
+[aem-cloud]: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html
